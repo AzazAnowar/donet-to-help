@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Finlandica', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* common classes */
+.side-gap{
+    margin: 0 8%;
+}
+.d-btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #FF5959;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.common-p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+/* banner section */
+.banner{
+    background: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    position: relative;
+    text-align: center;
+}
+.overlay{
+    background: linear-gradient(0deg, black, #0000004f);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.banner-info{
+    z-index: 1;
+}
+.banner-info h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+}
+.banner-info p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* donet section */
+
+/* donet heading */
+.donet-heading{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 70px;
+    text-align: center;
+}
+.donet-heading h1{
+    color: #121212;
+    font-size: 50px;
+    font-weight: 800;
+}
+.donet-heading p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.donet-amount{
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto 3%;
+}
+.donet-amount .active{
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.donet-amount h1{
+    font-size: 30px;
+    color: #707070;
+    padding: 40px;
+    margin: 20px 20px;
+    background-color: #d7d7d7;
+    border: 2px solid #ffffff00;
+}
+.donet-amount h1:hover{
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.donet-btn{
+    text-align: center;
+    max-width: 55%;
+    margin: 0 auto;
+}
+.donet-btn form input{
+    width: 100%;
+    border-bottom: 1px solid #D7D7D7;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 25px 0;
+}
+.donet-btn form input::placeholder{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* donet plan */
+.donet-plan{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+/* donate campaigns */
+.donate-campaigns{
+    display: flex;
+    align-items: stretch;
+}
+#bg-1{
+    background-color: #EDF5F6;
+}
+#bg-2{
+    background-color: #FFEEEE;
+}
+#bg-3{
+    background-color: #FFF4D6;
+}
+.single-campaign{
+    margin: 20px;
+    padding:50px;
+    flex: 1;
+}
+.single-campaign h3{
+    font-size: 30px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 45px 0;
+}
+.footer h1{
+    font-size: 50px;
+    font-family: 'Finlandica', sans-serif;
+    color: #D44B4D;
+}
+.footer p{
+    color: #C4C6CD;
+    font-size: 20px
+}
