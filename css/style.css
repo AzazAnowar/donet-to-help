@@ -166,3 +166,60 @@ a{
     color: #C4C6CD;
     font-size: 20px
 }
+
+/* gellery section */
+.gellary-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.single-gellary{
+    max-width: 21%;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #ff59596b;
+}
+.single-gellary a img{
+    height: 100%;
+    width: 100%;
+}
+
+/* update section */
+.update-body{
+    margin-bottom: 100px;
+}
+.contact-form{
+    height: 30vh;
+    width: 55%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+}
+.contact-form form{
+    width: 40%;
+}
+.contact-form form input{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    text-align: start;
+}
+.contact-form form input::placeholder{
+    font-size: 20px;
+    text-align: start;
+    padding-left: 15px;
+}
+.contact-form a{
+    color: #fff;
+    background-color: #FF5959;
+    padding: 15px 40px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+}
